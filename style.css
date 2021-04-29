@@ -9,6 +9,7 @@ html {
     margin: 0;
     height: 100%;
     font-family: 'Noto Sans', sans-serif;
+    scroll-behavior: smooth;
 }
 
 h3 {
@@ -26,6 +27,7 @@ header {
 .container {
     width: 1200px;
     margin: auto;
+    scroll-behavior: smooth;
 }
 
 .page-header {
@@ -144,12 +146,12 @@ header h1 {
     box-sizing: border-box;
 }
 
-.gallery h2 {
+#gallery h2 {
     font-size: 2.2rem;
     color: #2a3d8f;
 }
 
-.gallery .photos figure {
+#gallery .photos figure {
     display: flex;
     margin: 0;
     align-items: center;
@@ -157,11 +159,11 @@ header h1 {
     margin-bottom: 10px;
 }
 
-.gallery .photos figure img {
+#gallery .photos figure img {
     width: 70%;
 }
 
-.gallery .photos figure figcaption {
+#gallery .photos figure figcaption {
     text-align: center;
     font-size: 2.2rem;
     margin: 0;
@@ -171,7 +173,7 @@ header h1 {
     color: white;
 }
 
-.gallery .photos figure:nth-child(2) figcaption {
+#gallery .photos figure:nth-child(2) figcaption {
     order: -1;
 }
 

@@ -11,21 +11,21 @@
         width: 29%;
     }
 
-    .gallery .photos figure {
+    #gallery .photos figure {
         flex-direction: column-reverse;
     }
 
-    .gallery .photos figure img {
+    #gallery .photos figure img {
         width: 100%;
         margin: 0;
     }
     
-    .gallery .photos figure figcaption {
+    #gallery .photos figure figcaption {
         width: 100%;
         padding: 50px 0;
         font-size: 2.5rem;
     }
-    .gallery .photos figure:nth-child(2) figcaption {
+    #gallery .photos figure:nth-child(2) figcaption {
         order: 1;
     }
     
@@ -48,7 +48,7 @@
         font-size: 14px;
     }
     
-    .gallery .photos figure figcaption {
+    #gallery .photos figure figcaption {
         padding: 40px 0;
     }
 }
@@ -109,7 +109,7 @@
         font-size: 1.4rem;
     }
     
-    .gallery .photos figure figcaption {
+    #gallery .photos figure figcaption {
         width: 70%;
         text-align: center;
         height: 150px;
@@ -118,7 +118,7 @@
         
     }
     
-    .gallery p {
+    #gallery p {
         font-size: 1.25rem;
     }
     
