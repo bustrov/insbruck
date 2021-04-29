@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
+html {
+    font-size: 20px;
+}
+
+body,
+html {
+    margin: 0;
+    height: 100%;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+h3 {
+    font-size: 1.7rem;
+    font-weight: 700;
+}
+
+header {
+    background-image: url(img/innsbruck1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+}
+
+.container {
+    width: 1200px;
+    margin: auto;
+}
+
+.page-header {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+
+.page-header img {
+    width: 80px;
+}
+
+.page-header nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-grow: 1;
+}
+
+.page-header nav a {
+    color: #2a46af;
+    font-size: 1.7rem;
+    margin: 0;
+    line-height: 2.5;
+    text-decoration: none;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+header h1 {
+    font-size: 3.5rem;
+    margin: 0;
+    color: white;
+    margin-top: 200px;
+    line-height: 1.5;
+}
+
+.about-city h2 {
+    font-size: 2.2rem;
+    color: #2a3d8f;
+}
+
+.about-city .about-info p {
+    font-size: 1.2rem;
+}
+
+.about-city .wrapper-numbers {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-city .about-numbers {
+    width: 70%;
+}
+
+.about-city .about-numbers ul {
+    font-size: 1.2rem;
+    list-style-image: url(img/galochka.svg);
+    list-style-position: outside;
+}
+
+.about-city aside {
+    width: 25%;
+    background-image: url(img/skier.png);
+    background-size: cover;
+    background-position: center right;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-city aside p {
+    margin: 0;
+    font-size: 1.8rem;
+    font-weight: 700;
+    text-align: left;
+}
+
+.about-city aside a {
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    background-color: white;
+    padding: 10px 15px;
+    opacity: 0.5;
+    align-self: flex-end;
+}
+
+.about-city aside div {
+    flex-grow: 1;
+}
+
+.about-city .about-temperature figcaption {
+    color: white;
+    background-color: gray;
+    text-align: center;
+    font-size: 1.2rem;
+    margin: 0;
+    padding: 10px 0;
+}
+
+.about-city .about-temperature figure {
+    padding: 0;
+    margin: 0;
+}
+
+.about-city .about-temperature img {
+    width: 100%;
+    margin: 0;
+    display: block;
+    border: 2px solid grey;
+    box-sizing: border-box;
+}
+
+.gallery h2 {
+    font-size: 2.2rem;
+    color: #2a3d8f;
+}
+
+.gallery .photos figure {
+    display: flex;
+    margin: 0;
+    align-items: center;
+    background-color: #b5d4c5;
+    margin-bottom: 10px;
+}
+
+.gallery .photos figure img {
+    width: 70%;
+}
+
+.gallery .photos figure figcaption {
+    text-align: center;
+    font-size: 2.2rem;
+    margin: 0;
+    padding: 0;
+    text-transform: lowercase;
+    width: 30%;
+    color: white;
+}
+
+.gallery .photos figure:nth-child(2) figcaption {
+    order: -1;
+}
+
+.about-map h2 {
+    font-size: 2.2rem;
+    color: #2a3d8f;
+}
+
+.about-map .map iframe {
+    width: 100%;
+    height: 450px;
+}
+
+.about-map p {
+    font-size: 1rem;
+}
+
+.about-map .fly-phone {
+    display: none;
+}
+
+.about-map table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    margin: auto;
+    width: 800px;
+}
+
+.about-map table tr {
+    border: 1px solid black;
+}
+
+.about-map table th {
+    border: 1px solid black;
+    background-color: #202e5c;
+    color: white;
+    width: 25%;
+    padding: 5px 0;
+}
+
+.about-map table td {
+    border: 1px solid black;
+    width: 25%;
+    padding: 5px 0;
+}
+
+.about-transport {
+    text-align: center;
+}
+
+footer {
+    background-color: #b5d4c5;
+}
+
+.about-us {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 25px;
+    align-items: center;
+}
+
+.about-us p {
+    font-size: 0.75rem;
+    text-align: center;
+}
+
+.about-us p:first-child {
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+.about-us .icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.about-us .icon img {
+    margin: 0 10px;
+}
