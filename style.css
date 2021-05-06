@@ -24,6 +24,12 @@ header {
     height: 650px;
 }
 
+/*
+main {
+    scroll-behavior: smooth;
+}
+*/
+
 .container {
     width: 1200px;
     margin: auto;
@@ -239,7 +245,7 @@ footer {
 }
 
 .about-us p {
-    font-size: 0.75rem;
+    font-size: 1.2rem;
     text-align: center;
 }
 
